@@ -22,6 +22,7 @@ a.navigation:link {
     font-size:22px;
     font-weight:bold;
     margin-right:40px;
+    color:#888888;
 }
 a.navigation:visited {
     color:#888888;
