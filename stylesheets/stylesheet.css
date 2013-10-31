@@ -13,14 +13,14 @@ header {
 }
 
 div.navigation {
-    font-family:"Helvetica Neue";
+    font-family:"Helvetica";
     text-decoration:none;
     margin-bottom:10px;
 }
 
 a.navigation:link {
     text-decoration:none;
-    font-size:18px;
+    font-size:22px;
     font-weight:bold;
     margin-right:40px;
 }
@@ -33,7 +33,7 @@ a.navigation:hover {
 
 t.navigation {
     text-decoration:none;
-    font-size:18px;
+    font-size:22px;
     font-weight:bold;
     color:#424242;
     margin-right:40px;
@@ -94,7 +94,7 @@ html {
     background: url(../images/socialsprite.png) no-repeat -219px -35px;
 }
 .welcomemsg {
-    font-family:"Helvetica Neue";
+    font-family:"Helvetica";
     text-align:center;
     margin:0px;
     color:#424242;
