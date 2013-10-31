@@ -136,3 +136,39 @@ img.contentright {
     border-width:4px;
     border-style:solid;
 }
+
+.project-image {
+    display:block;
+    width:200px;
+    margin:1px;
+    box-shadow:2px 2px 8px #888888;
+    border-color:#FFFFFF;
+    border-width:4px;
+    border-style:solid;
+}
+
+.project-description {
+    display:block;
+    width:370px;
+    margin:10px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float:left;
+}
+
+.project-item {
+    display:table-row
+}
+
+a {
+    color:#424242;
+}
+
+a:hover {
+    color:#5577FF;
+}
