@@ -162,7 +162,7 @@ img.contentright {
 }
 
 .project-item {
-    display:table-row
+    display:table-row;
 }
 
 a {
