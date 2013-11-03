@@ -167,3 +167,9 @@ a {
 a:hover {
     color:#5577FF;
 }
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
