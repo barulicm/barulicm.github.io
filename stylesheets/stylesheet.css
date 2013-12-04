@@ -43,14 +43,11 @@ html {
     background-color:#FEFEFE;
 }
 
-.social-links {
-    float: right;
-}
-
 .social-links-item {
+    display: inline-block;
+    float:right;
     height:22px;
     width:22px;
-    display: inline-block;
     margin-left: 13px;
     opacity: 0.5;
     vertical-align: middle;
