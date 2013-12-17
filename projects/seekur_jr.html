@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen" />
+    <title>Matthew Barulic - Seekur Jr.</title>
+  </head>
+    
+  <body>
+    <header>
+        <div class="navigation">
+          <a class="navigation" href="../index.html">Welcome</a>
+          <a class="navigation" href="../aboutme.html">About Me</a>
+          <a class="navigation" href="../projects.html">Projects</a>
+          <!--<a class="navigation" href="">Blog</a>-->
+          <a class="social-links-item github-icon" href="http://www.github.com/barulicm" title="Github" ></a>
+          <a class="social-links-item twitter-icon" href="http://twitter.com/mattbarulic" title="Twitter" ></a>
+          <a class="social-links-item google-plus-icon" href="http://google.com/+MatthewBarulic" title="Google Plus" ></a>
+          <a class="social-links-item facebook-icon" href="http://www.facebook.com/matt.barulic" title="Facebook" ></a>
+          <a class="social-links-item youtube-icon" href="http://www.youtube.com/mattsrobots" title="Youtube" ></a>
+        </div>
+        <div class="topimage" style="height: 120px;">
+            <img src="../images/projects/Seekur_Jr_headerimage.png" id="welcomeimg" />
+        </div>
+    </header>
+        <div class="content">
+           <iframe class="center" width="420" height="315" src="//www.youtube.com/embed/CHovZuMBuj4" frameborder="0" allowfullscreen></iframe>
+           <p>This project is the result of my work at GTRI ELSYS during the summer of 2012. The project equips Mobile Robot’s Seekur Jr robot with a kinect, which it uses to autonomously generate a map of its environment while navigating successfully to a user-defined destination.<br/>The <a href="files/KinectAndAStar_WithVoiceControl_RawCode.zip">code</a> and a <a href="files/KinectandASummary.pdf">summary</a> are available.</p>
+           <p>The robot uses the <a href="http://www.pointclouds.org">Point Cloud Library (PCL)</a> to process the 3D data from the kinect.</p>
+           <p><a href="http://www.mobilerobots.com/Software/ARIA.aspx">Mobile Robot’s ARIA library</a> was used for communication with Seekur Jr’s microcontroller.</p>
+           <p>A custom implementation of the A* path finding algorithm was written based partly on <a href="http://www.policyalmanac.org/games/aStarTutorial.htm">this tutorial</a>.</p>
+           <p>Voice commands and feedback were added using <a href="http://www.microsoft.com/en-us/download/details.aspx?id=10121">Microsoft’s Speech API (SAPI)</a>.</p>
+           <p>The only additional sensor added to the robot was <a href="http://www.microsoft.com/en-us/kinectforwindows/">Microsoft’s Kinect sensor</a>.</p>
+           <p>This project was developed using <a href="http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express">Visual C++ 2010 Express Edition</a>.</p>
+           <p><b>NOTE:</b> the express edition does not ship with the ATL library required by SAPI, this library is available for free as part of the <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg487428.aspx">Windows Driver Kit (WDK)</a>.</p>
+        </div>
+  </body>
+</html>
