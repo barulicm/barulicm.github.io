@@ -154,7 +154,9 @@ img.contentright {
 }
 
 .project-item {
-    display:table-row;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 a {
