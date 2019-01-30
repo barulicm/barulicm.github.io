@@ -22,6 +22,7 @@
         <div class="content">
             <h2 style="text-align:center">DIY Autonomous Car</h2>
             <p>With only about $200 in parts, anyone can get started exploring the world of self-driving cars. This page provides step-by-step details about how to build this RC-car-based autonomous vehicle.</p>
+            <img src="../images/projects/racecar_20.gif" style="width: 100%"/>
             <h3>Parts to Buy</h3>
             <p>This table lists all of the major components I bought to put the car together. In addition to these parts, you'll need materials for making custom parts (I used a 3D printer), and some screws (listed in the second table).</p>
             <h4>Major Components</h4>
@@ -104,8 +105,9 @@
             
             <h3>Assembling the Hardware</h3>
             <p>To prep the car for additional parts, remove the decorative body and the receiver. Install the battery now, as getting the battery in after the extra parts are added is difficult.</p>
-            <p>To mount the computing hardware onto the chassis, I designed some custom 3D printed parts which clamp onto the rim around the Turnigy truck's chassis. The parts I downloaded can fit one at a time on the <a href="https://www.monoprice.com/product?p_id=21666">MonoPrice Mini Delta printer</a>, which has a very small build area, so they should fit on just about any 3D printer out there.</p>
+            <p>To mount the computing hardware onto the chassis, I designed some custom 3D printed parts which clamp onto the rim around the Turnigy truck's chassis. The parts I downloaded can fit one at a time on the <a href="https://www.monoprice.com/product?p_id=21666">MonoPrice Mini Delta printer</a>, which has a very small build area, so they should fit on just about any 3D printer out there. Once the parts are screwed together, the rim of the car's chassis should fit into the slots on the bottom of the support arches, and the screws next to those slots will clamp the assembly to the car.</p>
             <p>You can download the STLs I printed <a href="files/racecar_3dParts.zip">here</a>. (These STLs are in millimeters.)</p>
+            <p>Once the 3D printed parts are secured, connect the steering servo's PWM cable to the PWM hat's channel 0, and the drive motor cable to channel 1. Pay attention to the channel markings and polarity markings (S,5,G) on the PWM hat.</p>
             
             <h3>Setting up the Raspberry Pi</h3>
             <p>The Raspberry Pi is a super useful embedded computer, but it does require a bit of setup to work with the hardware we've got. The first step, if you're new to using the Pi, is to install Raspian, the default operating system. You can do this with the beginner-friendly <a href="https://www.raspberrypi.org/documentation/installation/noobs.md">NOOBS installer</a>.</p>
@@ -359,11 +361,11 @@ std<span style="color: #333333">::</span>array<span style="color: #333333">&lt;<
             <p>This first section simply defines some useful constants, initializes our camera and PCA9685 (the PWM hat), and declares the arrays we'll be working with.</p>
             
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pca.set_pwm_ms(SPEED, <span style="color: #6600EE; font-weight: bold">1.7</span>);
-usleep(<span style="color: #0000DD; font-weight: bold">1</span><span style="color: #FF0000; background-color: #FFAAAA">&#39;</span><span style="color: #4400EE; font-weight: bold">000</span><span style="color: #FF0000; background-color: #FFAAAA">&#39;</span><span style="color: #4400EE; font-weight: bold">000</span>);
+usleep(<span style="color: #0000DD; font-weight: bold">1&#39;000&#39;000</span>);
 pca.set_pwm_ms(SPEED, <span style="color: #6600EE; font-weight: bold">1.76</span>);
 </pre></div>
             
-            <p>This starts the car driving forward at a constant speed. PWM is a digital signal that communicates a "duty cycle". We can treat this like a percentage control over the car's throttle. On the wire, PWM is a square wave where the on time varies from 1.5ms to 2.0ms. This range has to cover forward and reverse, so the Turnigy truck (along with most RC cars) maps this range as follows.</p>
+            <p>This starts the car driving forward at a constant speed. PWM is a digital signal that communicates a "duty cycle". We can treat this like a percentage control over the car's throttle. On the wire, PWM is a square wave where the on time varies from 1.0ms to 2.0ms. The Turnigy truck maps this range as follows.</p>
             <p>1.5 -> Full Reverse.<br/>1.7 -> Stopped<br/>2.0 -> Full Forward</p>
             <p>As you can see in the code, I'm only setting the forward speed to 1.76, or just 20% of the cars max speed. This car can go fast!</p>
             <p>The 1 second delay gives the car's ESC time to initialize. It waits for a certain length of neutral (1.7ms) signal before it enables the vehicle.</p>
