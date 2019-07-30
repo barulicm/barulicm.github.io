@@ -47,17 +47,17 @@ div.social-links {
 }
 
 .github-icon {
-  background: url(../images/social/github.jpg) no-repeat center;
+  background: url(../images/social/github.svg) no-repeat center;
   background-size: cover;
 }
 
 .twitter-icon {
-  background: url(../images/social/twitter.jpg) no-repeat center;
+  background: url(../images/social/twitter.svg) no-repeat center;
   background-size: cover;
 }
 
 .youtube-icon {
-  background: url(../images/social/youtube.jpg) no-repeat center;
+  background: url(../images/social/youtube.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -157,21 +157,21 @@ th, td {
   display: grid;
   grid-template-rows: auto;
   
-  grid-template-columns: 48% 48%;
+  grid-template-columns: 100%;
   grid-template-areas: 
-    "header header"
-    "personal professional";
-  grid-column-gap: 4%;
+    "header"
+    "professional"
+    "personal";
+  grid-column-gap: 0;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 910px) {
   #main-grid {
-    grid-template-columns: 100%;
+    grid-template-columns: 48% 48%;
     grid-template-areas: 
-      "header"
-      "professional"
-      "personal";
-    grid-column-gap: 0;
+      "header header"
+      "personal professional";
+    grid-column-gap: 4%;
   }
 }
 
