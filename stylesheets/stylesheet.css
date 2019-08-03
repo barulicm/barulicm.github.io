@@ -105,7 +105,7 @@ div.social-links {
     "image"
     "title";
   
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
   max-width: 350px;
   border-color:#eee;
@@ -226,7 +226,6 @@ a {
       "description";
 
     align-items: center;
-    margin: 10px;
     width: 100%;
     max-width: 400px;
     
