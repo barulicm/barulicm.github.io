@@ -229,6 +229,8 @@ a {
     margin: 10px;
     width: 100%;
     max-width: 400px;
+    
+    border-color:#aaa;
   }
   
   .project-overlay {
