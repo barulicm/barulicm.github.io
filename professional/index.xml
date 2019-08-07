@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional on My New Hugo Site</title>
+    <link>http://example.org/professional/</link>
+    <description>Recent content in Professional on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2019 23:48:22 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/professional/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autonomous Fusion</title>
+      <link>http://example.org/professional/autonomous_fusion/</link>
+      <pubDate>Tue, 06 Aug 2019 19:35:06 -0700</pubDate>
+      
+      <guid>http://example.org/professional/autonomous_fusion/</guid>
+      <description>Atlanta-based startup building autonomous driving software. I was a software engineer on the team building the autonomy systems.</description>
+    </item>
+    
+    <item>
+      <title>Greenzie</title>
+      <link>http://example.org/professional/greenzie/</link>
+      <pubDate>Tue, 06 Aug 2019 19:30:03 -0700</pubDate>
+      
+      <guid>http://example.org/professional/greenzie/</guid>
+      <description>Atlanta-based startup building autonomous lawnmowing tech. I worked on software for the first prototype and architecture for the future product.</description>
+    </item>
+    
+    <item>
+      <title>Crowd Traffic</title>
+      <link>http://example.org/professional/crowd_traffic/</link>
+      <pubDate>Tue, 06 Aug 2019 19:12:28 -0700</pubDate>
+      
+      <guid>http://example.org/professional/crowd_traffic/</guid>
+      <description>A mobile Android application that uses data from other app users to build a live map of traffic. Built during an internship at GSU&amp;rsquo;s Sensorweb Research Laboratory.</description>
+    </item>
+    
+  </channel>
+</rss>

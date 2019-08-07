@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on My New Hugo Site</title>
+    <link>http://example.org/personal/</link>
+    <description>Recent content in Personal on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2019 23:48:15 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ChatRover 9000</title>
+      <link>http://example.org/personal/chatrover_9000/</link>
+      <pubDate>Tue, 06 Aug 2019 19:17:56 -0700</pubDate>
+      
+      <guid>http://example.org/personal/chatrover_9000/</guid>
+      <description>This project was my first substantial robotics project. It was a rather bulky and slow rover controlled via Skype. I entered into the GaETC tech fair in 2008, where it went on to win first in state.</description>
+    </item>
+    
+    <item>
+      <title>Seekur Jr.</title>
+      <link>http://example.org/personal/seekur_jr/</link>
+      <pubDate>Tue, 06 Aug 2019 19:12:47 -0700</pubDate>
+      
+      <guid>http://example.org/personal/seekur_jr/</guid>
+      <description>This project is from my internship at GTRI ELSYS in 2012. The project uses a kinect to autonomously map and navigate its environment.</description>
+    </item>
+    
+    <item>
+      <title>Spot</title>
+      <link>http://example.org/personal/spot/</link>
+      <pubDate>Tue, 06 Aug 2019 19:12:17 -0700</pubDate>
+      
+      <guid>http://example.org/personal/spot/</guid>
+      <description>One of my early experiments in computer vision, this rover uses a webcam and on-board computer to chase balls and avoid crashes.</description>
+    </item>
+    
+    <item>
+      <title>BassBot</title>
+      <link>http://example.org/personal/bassbot/</link>
+      <pubDate>Tue, 06 Aug 2019 19:11:57 -0700</pubDate>
+      
+      <guid>http://example.org/personal/bassbot/</guid>
+      <description>As a final project for Georgia Tech&amp;rsquo;s CS 7633, Human-Robot Interaction, I built a bass guitar-playing robot.</description>
+    </item>
+    
+    <item>
+      <title>VEX Shield for Arduino</title>
+      <link>http://example.org/personal/arduino_vex_shield/</link>
+      <pubDate>Tue, 06 Aug 2019 19:11:47 -0700</pubDate>
+      
+      <guid>http://example.org/personal/arduino_vex_shield/</guid>
+      <description>This is an Arduino shield I&amp;rsquo;ve designed for making it easier to interface with VEX electronics (servos, sensors, etc.) from an Arduino microcontroller.</description>
+    </item>
+    
+    <item>
+      <title>DIY Autonomous Car</title>
+      <link>http://example.org/personal/diy_autonomous_car/</link>
+      <pubDate>Tue, 06 Aug 2019 18:15:55 -0700</pubDate>
+      
+      <guid>http://example.org/personal/diy_autonomous_car/</guid>
+      <description>Raspberry Pi-based, small scale, self-driving car.</description>
+    </item>
+    
+  </channel>
+</rss>

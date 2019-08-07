@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/community/</loc>
+    <lastmod>2019-08-06T23:48:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/professional/</loc>
+    <lastmod>2019-08-06T23:48:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/</loc>
+    <lastmod>2019-08-06T23:48:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/community/k_12_robotics/</loc>
+    <lastmod>2019-08-06T19:37:53-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-08-06T19:37:53-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/community/robojackets/</loc>
+    <lastmod>2019-08-06T19:37:42-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/professional/autonomous_fusion/</loc>
+    <lastmod>2019-08-06T19:35:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/professional/greenzie/</loc>
+    <lastmod>2019-08-06T19:30:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/chatrover_9000/</loc>
+    <lastmod>2019-08-06T19:17:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/seekur_jr/</loc>
+    <lastmod>2019-08-06T19:12:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/professional/crowd_traffic/</loc>
+    <lastmod>2019-08-06T19:12:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/spot/</loc>
+    <lastmod>2019-08-06T19:12:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/bassbot/</loc>
+    <lastmod>2019-08-06T19:11:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/arduino_vex_shield/</loc>
+    <lastmod>2019-08-06T19:11:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/personal/diy_autonomous_car/</loc>
+    <lastmod>2019-08-06T18:15:55-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

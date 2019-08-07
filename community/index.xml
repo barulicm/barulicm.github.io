@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on My New Hugo Site</title>
+    <link>http://example.org/community/</link>
+    <description>Recent content in Community on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2019 23:48:28 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>K-12 Robotics</title>
+      <link>http://example.org/community/k_12_robotics/</link>
+      <pubDate>Tue, 06 Aug 2019 19:37:53 -0700</pubDate>
+      
+      <guid>http://example.org/community/k_12_robotics/</guid>
+      <description>I participated in several competitive robotics programs in high school and continue to be involved in those communities with volunteering.</description>
+    </item>
+    
+    <item>
+      <title>RoboJackets</title>
+      <link>http://example.org/community/robojackets/</link>
+      <pubDate>Tue, 06 Aug 2019 19:37:42 -0700</pubDate>
+      
+      <guid>http://example.org/community/robojackets/</guid>
+      <description>I am a former president of this Georgia Tech student organization. I now mentor current leadership and help produce training materials.</description>
+    </item>
+    
+  </channel>
+</rss>
