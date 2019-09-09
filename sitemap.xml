@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/professional/autorally/</loc>
+    <lastmod>2019-09-09T15:57:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-09-09T15:57:49-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/community/</loc>
     <lastmod>2019-08-06T23:48:28-07:00</lastmod>
   </url>
@@ -20,12 +30,6 @@
   <url>
     <loc>http://example.org/community/k_12_robotics/</loc>
     <lastmod>2019-08-06T19:37:53-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-08-06T19:37:53-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -80,12 +84,10 @@
   
   <url>
     <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
